@@ -49,7 +49,7 @@ public class Main {
         //Now I made price attribute as private in the bike class
         ICEBike bike3 = new ICEBike(400000, "Duke", 5);
         System.out.println(bike3.price + " " + bike3.gears + " "+ bike3.name);
-        //After creating the child object we will have each and every attribute of child in the parent object
+        //After creating the child object we will have each and every attribute of parent in the child object
         //but depending upon the access modifier we will be have the access to the methods or variables for the child
     }
 }
