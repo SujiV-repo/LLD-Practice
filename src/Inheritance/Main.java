@@ -51,5 +51,9 @@ public class Main {
         System.out.println(bike3.price + " " + bike3.gears + " "+ bike3.name);
         //After creating the child object we will have each and every attribute of parent in the child object
         //but depending upon the access modifier we will be have the access to the methods or variables for the child
+
+        //created the object of child class
+        ICEBike bike4 = new ICEBike(85000, "tvs", 3);
+        bike4.getBikeInfo();
     }
 }

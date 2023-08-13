@@ -14,4 +14,8 @@ public class Bike {
         this.price = price;
         this.name = name;
     }
+
+    public void getBikeInfo(){
+        System.out.println("I am using the bike");
+    }
 }

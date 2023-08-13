@@ -11,4 +11,9 @@ public class ICEBike extends Bike{
     public ICEBike(int price, String ktm) {
         super(price, ktm);
     }
+
+    @Override
+    public void getBikeInfo() {
+        System.out.println("I am using Ice bike");
+    }
 }
