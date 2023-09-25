@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b49f7169-ac30-44b2-981a-81e081cdc393" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultipleInheritance/Implement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultipleInheritance/firstInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultipleInheritance/secondIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Overriding/ICEcar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Overriding/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Overriding/executeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism_two/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism_two/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism_two/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/Resource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.designPatterns.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.Main" />
       <module name="LLD Practice" />
@@ -71,8 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="designPatterns.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.Main" />
+      <module name="LLD Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designPatterns.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -95,7 +100,8 @@
       <workItem from="1693728901371" duration="98000" />
       <workItem from="1694937954126" duration="1643000" />
       <workItem from="1695217284619" duration="1447000" />
-      <workItem from="1695303034969" duration="702000" />
+      <workItem from="1695303034969" duration="2295000" />
+      <workItem from="1695624161594" duration="1686000" />
     </task>
     <servers />
   </component>
@@ -114,15 +120,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graphs/Solution.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="getPrice()" language="JAVA" />
