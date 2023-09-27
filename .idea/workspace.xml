@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b49f7169-ac30-44b2-981a-81e081cdc393" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/exception/DuplicateSymbolException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/exception/InvalidBoardSizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/exception/InvalidBotCountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/exception/InvalidNumberOfPlayersException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/BotDifficultyLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/BotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/CellState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/models/PlayerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -101,7 +116,10 @@
       <workItem from="1694937954126" duration="1643000" />
       <workItem from="1695217284619" duration="1447000" />
       <workItem from="1695303034969" duration="2295000" />
-      <workItem from="1695624161594" duration="1686000" />
+      <workItem from="1695624161594" duration="1845000" />
+      <workItem from="1695712052172" duration="1677000" />
+      <workItem from="1695783788926" duration="11000" />
+      <workItem from="1695793652776" duration="4507000" />
     </task>
     <servers />
   </component>
@@ -120,6 +138,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/designPatterns/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="getPrice()" language="JAVA" />
