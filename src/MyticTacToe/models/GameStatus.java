@@ -1,0 +1,7 @@
+package MyticTacToe.models;
+
+public enum GameStatus {
+    IN_PROGRESS,
+    DRAW,
+    COMPLETED
+}

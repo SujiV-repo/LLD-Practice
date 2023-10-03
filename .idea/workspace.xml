@@ -5,15 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b49f7169-ac30-44b2-981a-81e081cdc393" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/exception/GameOverException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/BotPlayingStrategies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/BotPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/BotPlayingStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/RandomBotPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/OrderOneWinningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/WinningStrategies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/WinningStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesExtends/getInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AccessModifier/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccessModifier/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/exception/DuplicateSymbolException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/exception/DuplicateSymbolException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/exception/GameOverException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/exception/GameOverException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/exception/InvalidBoardSizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/exception/InvalidBoardSizeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/exception/InvalidBotCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/exception/InvalidBotCountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/exception/InvalidNumberOfPlayersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/exception/InvalidNumberOfPlayersException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/BotDifficultyLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/BotDifficultyLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/BotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/BotPlayingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/CellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/CellState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/GameStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/models/PlayerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/models/PlayerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/BotPlayingStrategies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/botPlayingStrategy/BotPlayingStrategies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/BotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/botPlayingStrategy/BotPlayingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/BotPlayingStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/botPlayingStrategy/BotPlayingStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/botPlayingStrategy/RandomBotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/botPlayingStrategy/RandomBotPlayingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/OrderOneWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/winningStrategy/OrderOneWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/WinningStrategies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/winningStrategy/WinningStrategies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/winningStrategy/WinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/service/winningStrategy/WinningStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyticTacToe/service/winningStrategy/WinningStrategyFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,6 +65,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sujit/Interview Prep/LLD_IntAdv_1207&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,7 +131,10 @@
       <workItem from="1695712052172" duration="1677000" />
       <workItem from="1695783788926" duration="11000" />
       <workItem from="1695793652776" duration="5179000" />
-      <workItem from="1695879228440" duration="3854000" />
+      <workItem from="1695879228440" duration="4581000" />
+      <workItem from="1696139835427" duration="1642000" />
+      <workItem from="1696141514773" duration="605000" />
+      <workItem from="1696312685574" duration="629000" />
     </task>
     <servers />
   </component>

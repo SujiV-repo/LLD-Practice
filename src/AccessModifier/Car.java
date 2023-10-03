@@ -1,5 +1,5 @@
 package AccessModifier;
-
+import java.util.Queue;
 public class Car {
     int wheels; // it has default package and is accessible in this package only
     public String name; //it has public access and is available everywhere
