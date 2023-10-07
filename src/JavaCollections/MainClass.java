@@ -30,6 +30,8 @@ public class MainClass {
         long end = System.nanoTime();
         System.out.println(end - start);
     }
+
+
 }
 //By this I got to know that implementing through interface takes more time than the concrete implementation
 //for example in the above code, I have declared the ArrayList through List interface and concrete implementation
