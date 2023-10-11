@@ -18,4 +18,5 @@ package JavaCollections;
         System.out.println("we can execute code in the interfaces :)");
     }
 
+    //We can declare static methods to use the methods as a utility class
 }
